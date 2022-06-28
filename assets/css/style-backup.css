@@ -1,0 +1,62 @@
+/* apply styles to header */
+header {
+    background-image: url("../images/stylish-man-with-umbrella-5120x2550.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: var(--primary-color);
+    padding: 5% 10%;
+}
+header h1 {
+    font-weight: 300;
+    font-size: 30px;
+    color: var(--primary-color);
+    text-shadow: 0 1px 3px rgba(0, 0, 0 0.5);
+    margin-bottom: 5px;
+}
+header h2 {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0 0.5);
+    margin-bottom: 30px;
+}
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    list-style: none;
+}
+header nav ul li a {
+    padding-bottom: 10px 15px;
+    font-weight: 200;
+    font-size: 1.55vw;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+header nav ul li a:hover {
+    font-weight: 500;
+    color:rgba(255, 199, 76);
+    border-bottom: 2px solid rgba(255, 199, 76);
+    padding: 5px 0px;
+}
+.header-content {
+    align-content: left;
+    margin-top: 15%;
+}
+.photo-container {
+    background-color:rgba(255, 0, 0 0.5);
+    border-radius: 50%;
+    width: 100px;
+}
+.photo-container img {
+    height: 100px;
+    width: 100px;
+}

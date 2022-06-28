@@ -1,0 +1,68 @@
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+/* MEDIA QUERY FOR LAPTOPS AND SMALLER */
+/* this wil be applied on any screen smaller than 980px */
+@media screen and (max-width: 980px) {
+    header {
+        padding: 5% 5%;
+    }
+    .work {
+        width: 48%;
+    }
+    .about-me-title {
+        width: 20%;
+        padding: 5%;
+    }
+    .about-me-text {
+        width: 78%;
+        padding-right: 5%;
+    }
+    .contact-me-title {
+        width: 20%;
+        padding: 5%;
+    }
+    .contact-me-text {
+        width: 78%;
+        padding-right: 5%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+/* this will be applied on any screen between 768px and 575px */
+@media screen and (max-width: 768px) {
+    .about-me-title h2 {
+        font-size: 18px;
+    }
+    .contact-me-title h2 {
+        font-size: 18px;
+    }
+    
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* this will be applied on any screen smaller than 575px */
+@media screen and (max-width: 575px) {
+    header {
+        padding: 5% 3%;
+    }
+    .work {
+        width: 97%;
+    }
+    .about-me-title {
+        width: 18%;
+        padding: 3%;
+    }
+    .about-me-title h2 {
+        font-size: 18px;
+    }
+    .about-me-text {
+        width: 80%;
+    }
+    .contact-me-title {
+        width: 18%;
+        padding: 3%;
+    }
+    .contact-me-title h2 {
+        font-size: 18px;
+    }
+}
