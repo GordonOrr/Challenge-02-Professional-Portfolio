@@ -9,7 +9,7 @@ A website that present my professional portfolio
 * CSS
 
 ## Website
-https://gordonorr.github.io/run-buddy/
+https://gordonorr.github.io/Challenge-02-Professional-Portfolio/
 
 ## Contribution
 Made with ❤️ by Gordon Orr
