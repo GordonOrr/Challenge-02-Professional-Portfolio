@@ -106,7 +106,7 @@ header nav ul li a:hover {
     padding-right: 0px;
 }
 .about-me-title h2 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 520;
     color: var(--text-color-two);
     padding-top: 0%
@@ -137,7 +137,7 @@ header nav ul li a:hover {
     border-right: 1px solid var(--text-color-two);
 }
 .contact-me-title h2 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 520;
     color: var(--text-color-two);
     padding-top: 0%;
@@ -150,9 +150,58 @@ header nav ul li a:hover {
     padding-left: 25px;
     padding-right: 10%;
 }
+/* apply styles to Featured Work section */
+#my-work {
+    background-color: var(--color-two);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    padding-right: 0;
+}
+.featured-work-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    justify-content:left;
+    align-items: top;
+}
+.featured-work-text {
+    width: 33.3%;
+    margin: 0px;
+}
+.featured-work-text h1 {
+    font-size: 22px;
+    font-weight: 520;
+    color: var(--text-color-two);
+    text-shadow: 0 0 10px rgba(0, 0, 0 0.5);
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.featured-work-text h2 {
+    font-size: 18px;
+    font-weight: 520;
+    color: var(--text-color-two);
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.featured-work-text p {
+    color: var(--text-color-two)
+}
+.featured-work-image {
+    width: 65%;
+    margin: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url("../images/run-buddy-screenshot.jpg");
+}
+.featured-work-image img {
+    width: 100%;
+    height: auto;
+}
 
 /* apply styles to My Work section */
-#my-work {
+.my-work-etc {
     background-color: var(--color-two);
     padding: 15px 0px;
 }
