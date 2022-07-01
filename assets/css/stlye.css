@@ -244,7 +244,7 @@ header nav ul li a:hover {
     color: var(--text-color-two)
 }
 .work-one {
-    background-image: url("../images/run-buddy-screenshot-65%-opacity.jpg");
+    background-image: url("../images/stylish-man-with-umbrella-5120x2550.jpg");
 }
 .work-one:hover {
     background-image: url("../images/run-buddy-screenshot.jpg");
@@ -256,7 +256,7 @@ header nav ul li a:hover {
     background-image: url("../images/movie-moods-screenshot.jpg");
 }
 .work-three {
-    background-image: url("../images/stylish-man-with-umbrella-2560x1600-65%-opacity.jpg");
+    background-image: url("../images/stylish-man-with-umbrella-5120x2550.jpg");
 }
 .work-four {
     background-image: url("../images/stylish-man-with-umbrella-2560x1600-65%-opacity.jpg");
