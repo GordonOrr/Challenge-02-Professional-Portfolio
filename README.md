@@ -8,9 +8,9 @@ A website that present my professional portfolio
 * HTML
 * CSS
 
-##Screen Shots of Application
-![Screen Shot One](/assets/images/screen-shot-one-for-readme.jpg?raw=true "Screen Shot One")
-![Screen Shot Two](/assets/images/screen-shot-two-for-readme.jpg?raw=true "Screen Shot Two")
+## Screen Shots of Application
+![Screen Shot One](assets/images/screen-shot-one-for-readme.png?raw=true "Screen Shot One")
+![Screen Shot Two](assets/images/screen-shot-two-for-readme.png?raw=true "Screen Shot Two")
 
 ## Website
 https://gordonorr.github.io/Challenge-02-Professional-Portfolio/
